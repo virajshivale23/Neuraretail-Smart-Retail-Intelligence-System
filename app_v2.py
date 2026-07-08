@@ -184,8 +184,9 @@ st.sidebar.success(f"👤 Logged in as:\n\n{name}")
 
 st.sidebar.info(f"🔑 Role:\n\n{role.capitalize()}")
 
-authenticator.logout("🚪 Logout", "sidebar")
-
+if st.sidebar.button("🚪 Logout"):
+    st.session_state.clear()
+    st.rerun()
 st.sidebar.markdown("---")
 
 PAGES = [

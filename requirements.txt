@@ -5,8 +5,8 @@ plotly
 scikit-learn
 joblib
 PyYAML
-streamlit-authenticator==0.3.2
 prophet
 xgboost
 shap
 openpyxl
+bcrypt
