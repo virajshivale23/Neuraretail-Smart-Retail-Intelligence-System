@@ -1,0 +1,25 @@
+credentials:
+  usernames:
+
+    admin:
+      email: admin@neuralretail.com
+      name: Viraj Shivale
+      password: "$2b$12$Tq8v1nrLJ01H3i6vjYkVUOVRaIRm6CHAIX7plDpABizzDpv207P2S"
+
+    analyst:
+      email: analyst@neuralretail.com
+      name: Analyst
+      password: "$2b$12$P/eZ.kHoJVGe180mh8JzQuTFqHqbrm92qursTGdYisuKv7jw57vX6"
+
+    viewer:
+      email: viewer@neuralretail.com
+      name: Viewer
+      password: "$2b$12$2v12GBDQ4y3haVEp6huGS.S3et9bxvNwq.26Q2qK7uGoSKP97zOlS"
+
+cookie:
+  expiry_days: 30
+  key: neuralretail_cookie_key
+  name: neuralretail_cookie
+
+preauthorized:
+  emails: []
