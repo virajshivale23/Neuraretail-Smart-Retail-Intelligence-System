@@ -1,0 +1,12 @@
+streamlit
+pandas
+numpy
+plotly
+scikit-learn
+joblib
+PyYAML
+streamlit-authenticator
+prophet
+xgboost
+shap
+openpyxl
