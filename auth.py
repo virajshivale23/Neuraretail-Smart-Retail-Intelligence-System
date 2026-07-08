@@ -15,6 +15,13 @@ authenticator = stauth.Authenticate(
 )
 
 def login():
-
-    name, authentication_status, username = authenticator.login("main")
+    name, authentication_status, username = authenticator.login(
+        location="main",
+        fields={
+            "Form name": "Login",
+            "Username": "Username",
+            "Password": "Password",
+            "Login": "Login",
+        },
+    )
     return name, authentication_status, username, authenticator
